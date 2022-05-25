@@ -1,0 +1,53 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width: 562px) {
+    .carousel-item > img {
+        height: 60vh;
+    }
+
+    .carousel-title {
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-item > img {
+        height: 80vh;
+    }
+
+    .carousel-title {
+        font-size: 30px !important;
+        line-height: 45px !important;
+    }
+
+    .carousel-description {
+        line-height: 22px !important;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    .carousel-item > img {
+        height: 90vh;
+    }
+
+    .carousel-title {
+        font-size: 33px !important;
+        line-height: 60px !important;
+    }
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    .carousel-item > img {
+        height: 100vh;
+    }
+
+    .carousel-title {
+        font-size: 40px !important;
+    }
+}
